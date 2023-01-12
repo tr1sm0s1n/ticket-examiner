@@ -1,4 +1,3 @@
-
 # Ticket-Examiner
 
 An Android application for scanning the QR codes and sending the data to a backend server.
@@ -6,15 +5,15 @@ An Android application for scanning the QR codes and sending the data to a backe
 
 ## 🛠 Built With
 
-<p align="left">
-<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a>
-<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>
-</p>
+<div align="left">
+<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/flutter.svg" width="36" height="36" alt="Flutter" /></a>
+<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/dart.svg" width="36" height="36" alt="Dart" /></a>
+</div>
 
 
 ## ⚙️ Run Locally
 
-Install [Flutter](https://docs.flutter.dev/get-started/install) and [Android Studio](https://developer.android.com/studio) on your computer. 
+Install [Flutter](https://docs.flutter.dev/get-started/install), [Android Studio](https://developer.android.com/studio) and [VS Code](https://code.visualstudio.com/Download) on your computer. Install Dart and Flutter extensions for VS Code.
 
 Clone the project
 
@@ -26,6 +25,12 @@ Go to the project directory
 
 ```bash
   cd ticket-examiner
+```
+
+Open the project in VS Code and start the android emulator
+
+```bash
+  code .
 ```
 
 Install dependencies
@@ -76,3 +81,4 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m '<feature_name>_added'`)
 4. Push to the Branch (`git push origin feature/<feature_name>`)
 5. Open a Pull Request
+
