@@ -6,8 +6,8 @@ An Android application for scanning the QR codes and sending the data to a backe
 ## 🛠 Built With
 
 <div align="left">
-<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/flutter.svg" width="36" height="36" alt="Flutter" /></a>
-<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/dart.svg" width="36" height="36" alt="Dart" /></a>
+<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/main/assets/icons/flutter.svg" width="36" height="36" alt="Flutter" /></a>
+<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/main/assets/icons/dart.svg" width="36" height="36" alt="Dart" /></a>
 </div>
 
 
