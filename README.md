@@ -4,19 +4,16 @@ An Android application for scanning the QR codes and sending the data to a backe
 
 ## 🛠 Built With
 
-<div align="left">
-<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/main/assets/icons/flutter.svg" width="36" height="36" alt="Flutter" /></a>
-<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/main/assets/icons/dart.svg" width="36" height="36" alt="Dart" /></a>
-</div>
+[![Dart](https://img.shields.io/badge/dart-deepskyblue?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Flutter](https://img.shields.io/badge/flutter-deepskyblue?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Android Studio](https://img.shields.io/badge/android_studio-greenyellow?style=for-the-badge&logo=androidstudio&logoColor=white)](https://developer.android.com/studio)
 
 ## ⚙️ Run Locally
-
-Install [Flutter](https://docs.flutter.dev/get-started/install), [Android Studio](https://developer.android.com/studio) and [VS Code](https://code.visualstudio.com/Download) on your computer. Install Dart and Flutter extensions for VS Code.
 
 Clone the project
 
 ```bash
-git clone https://github.com/DEMYSTIF/ticket-examiner.git
+git clone https://github.com/tr1sm0s1n/ticket-examiner.git
 cd ticket-examiner
 ```
 
