@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ticket_examiner/home/analytics.dart';
 import 'package:ticket_examiner/home/home.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -79,15 +80,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 elevation: 15.0, // Set the elevation as needed
               ),
             ),
-            SizedBox(height: 50),
-            Padding(
-              padding: const EdgeInsets.all(15.0),
-              child: Image.asset(
-                'assets/kba_logo.png',
-                width: 200.0, // Set the desired width
-                height: 200.0, // Set the desired height
-              ),
-            ),
           ],
         ),
       ),
@@ -108,7 +100,31 @@ class _MyHomePageState extends State<MyHomePage> {
                         Icons.analytics_outlined,
                         color: Colors.white,
                       ),
-                      onPressed: () => {}),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          PageRouteBuilder(
+                            pageBuilder:
+                                (context, animation, secondaryAnimation) =>
+                                    const Analytics(),
+                            transitionsBuilder: (context, animation,
+                                secondaryAnimation, child) {
+                              const begin = Offset(1.0, 0.0);
+                              const end = Offset.zero;
+                              const curve = Curves.easeInOut;
+                              var tween = Tween(begin: begin, end: end)
+                                  .chain(CurveTween(curve: curve));
+
+                              var offsetAnimation = animation.drive(tween);
+
+                              return SlideTransition(
+                                position: offsetAnimation,
+                                child: child,
+                              );
+                            },
+                          ),
+                        );
+                      }),
                 ),
               ],
             ),
