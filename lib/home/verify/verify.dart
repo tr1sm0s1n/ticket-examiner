@@ -6,7 +6,7 @@ import 'package:audioplayers/audioplayers.dart';
 
 Future<Participant> verifyTicket(String data) async {
   final response = await http.post(
-    Uri.parse('http://192.168.0.120:3000/'),
+    Uri.parse('http://143.244.129.21:2001/certichain/verify_json'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
