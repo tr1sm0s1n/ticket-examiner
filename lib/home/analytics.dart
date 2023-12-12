@@ -44,7 +44,7 @@ class _AnalyticsState extends State<Analytics> {
         var participantName = participantAPICall[i]["certificate"]["candidate"]
                 ["attributes"]["name"] ??
             "";
-        var arrived = participantAPICall[i]["issued"] ?? "";
+        var arrived = participantAPICall[i]["issued"] ?? false;
         participantList
             .add({"participantName": participantName, "arrived": arrived});
       }
@@ -54,6 +54,15 @@ class _AnalyticsState extends State<Analytics> {
             .where((participant) => participant["arrived"])
             .length;
         arrivedPercentage = arrivedParticipants / totalParticipants;
+        participantList.sort((a, b) {
+          if (a["arrived"] == b["arrived"]) {
+            return 0;
+          } else if (a["arrived"]) {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
       });
       print('participantList $participantList');
     } else {}
